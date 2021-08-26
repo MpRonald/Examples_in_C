@@ -13,7 +13,7 @@ int main(){
 	printf("Digite o valor da altura do triangulo: \n");
 	scanf("%f", &altura);
 	
-	printf("A area do triangulo e igual a %0.2f.", (base*altura)/2);
+	printf("A area do triangulo e igual a %.2f.", (base*altura)/2);
 	
 	return 0;
 }
